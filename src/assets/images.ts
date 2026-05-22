@@ -4,18 +4,21 @@
  * once you have uploaded the physical files.
  */
 
+import logo from './logo.png';
+import bgImage from './bg.png';
+
 export const IMAGES = {
-  logo: "", // Add your logo image URL here (e.g., "/logo.png" or a remote URL)
+  logo: logo,
   hero: {
-    background: "src/assets/bg.png",
+    background: bgImage,
   },
   products: {
-    submersible1: "https://images.unsplash.com/photo-1581094288338-2314dddb7bc3?auto=format&fit=crop&q=80&w=800",
-    monobloc1: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=800",
-    verticalSubmersible: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800",
-    borewellSub: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=800",
-    ssBorewell: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
-    dewatering: "https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&q=80&w=800",
+    submersible1: "src/assets/single .png",
+    monobloc1: "src/assets/Centrifugal Monobloc Pump.png",
+    verticalSubmersible: "src/assets/Vertical Openwell Submersible Pump.png",
+    borewellSub: "src/assets/Borewell Submersible Pump.png",
+    ssBorewell: "src/assets/Stainless Steel Borewell Submersible Pump.png",
+    dewatering: "src/assets/Vertical Monobloc Dewatering Submersible Pump.png",
     threePhaseOpen: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=800",
     industrialMonobloc: "https://images.unsplash.com/photo-1581092334651-ddf26d9a1930?auto=format&fit=crop&q=80&w=800",
     booster: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&q=80&w=800",

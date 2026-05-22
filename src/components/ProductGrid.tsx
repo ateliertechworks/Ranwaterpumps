@@ -70,8 +70,8 @@ Please share:
                   loading="lazy"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
-                <div className="absolute top-4 right-4">
-                  <span className="px-4 py-1.5 bg-white shadow-lg text-[10px] font-extrabold text-primary-blue rounded-full">
+                <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="px-4 py-1.5 bg-white shadow-lg text-[10px] font-extrabold text-primary-blue rounded-full power-range-badge" style={{ perspective: '1000px' }}>
                     {product.powerRange}
                   </span>
                 </div>

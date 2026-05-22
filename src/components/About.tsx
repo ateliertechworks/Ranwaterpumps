@@ -22,7 +22,7 @@ export default function About() {
           >
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-primary-blue/5 rounded-full blur-[120px] -z-10" style={{ willChange: 'filter' }} />
             <img
-              src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=1000"
+              src="src/assets/abt.png"
               alt="RAN Pumps Manufacturing"
               loading="lazy"
               className="rounded-[3rem] shadow-2xl relative z-10 border-8 border-white"

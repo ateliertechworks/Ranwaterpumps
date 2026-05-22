@@ -71,6 +71,9 @@ export default function Footer() {
           <p className="text-white/40 text-sm">
             © {currentYear} RAN Pumps Industries. All rights reserved.
           </p>
+          <p className="text-white/40 text-sm">
+            © {currentYear} Akestro Technologies. All rights reserved.
+          </p>
           <div className="flex space-x-6">
             <a href="#" className="text-white/40 hover:text-white transition-colors text-sm">Privacy Policy</a>
             <a href="#" className="text-white/40 hover:text-white transition-colors text-sm">Terms of Service</a>

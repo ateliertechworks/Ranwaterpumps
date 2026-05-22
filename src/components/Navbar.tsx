@@ -42,13 +42,13 @@ export default function Navbar() {
           <div className="flex items-center">
             <a href="#" className="flex items-center space-x-2">
               {IMAGES.logo ? (
-                <img src={IMAGES.logo} alt="RAN Pumps Logo" className="h-10 w-auto object-contain" />
+                <img src={IMAGES.logo} alt="RAN Pumps Logo" className="h-20 w-auto object-contain" />
               ) : (
                 <div className="w-10 h-10 bg-primary-blue rounded-lg flex items-center justify-center shadow-lg shadow-primary-blue/20">
                   <span className="text-white font-bold text-xl">R</span>
                 </div>
               )}
-              <span className={`font-heading font-bold text-xl tracking-tight transition-colors ${scrolled ? 'text-dark-blue' : 'text-white'}`}>
+              <span className={`font-heading font-bold text-l tracking-tight transition-colors ${scrolled ? 'text-dark-blue' : 'text-white'}`}>
                 RAN PUMPS
               </span>
             </a>
