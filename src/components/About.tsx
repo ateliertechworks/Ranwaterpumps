@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { CheckCircle2 } from 'lucide-react';
+import { IMAGES } from '../assets/images';
 
 export default function About() {
   const highlights = [
@@ -22,7 +23,7 @@ export default function About() {
           >
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-primary-blue/5 rounded-full blur-[120px] -z-10" style={{ willChange: 'filter' }} />
             <img
-              src="src/assets/abt.png"
+              src={IMAGES.about}
               alt="RAN Pumps Manufacturing"
               loading="lazy"
               className="rounded-[3rem] shadow-2xl relative z-10 border-8 border-white"

@@ -4,6 +4,7 @@
 
 import logo from './logo.png';
 import bgImage from './bg.png';
+import abtImage from './abt.png';
 import submersible1 from './single .png';
 import monobloc1 from './ MonobloCentrifugalc Pump.png';
 import verticalSubmersible from './Vertical Openwell Submersible Pump.png';
@@ -30,6 +31,7 @@ export const IMAGES = {
   hero: {
     background: bgImage,
   },
+  about: abtImage,
   products: {
     submersible1: submersible1,
     monobloc1: monobloc1,
