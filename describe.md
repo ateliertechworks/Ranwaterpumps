@@ -16,7 +16,6 @@ This is a modern, responsive landing page website for **RAN Pumps Industries**, 
 
 ### Additional Tools
 - **Express.js** - Backend API support
-- **Google GenAI** - Integration for AI-powered features
 - **dotenv** - Environment variable management
 
 ## Project Structure
@@ -117,7 +116,7 @@ The website includes WhatsApp integration for direct customer inquiries:
 
 ### Environment Setup
 - Create `.env.local` file for API keys
-- Set `GEMINI_API_KEY` for AI features
+- Set `dotenv` for environment configuration
 
 ## Color Scheme
 
